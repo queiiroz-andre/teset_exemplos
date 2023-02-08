@@ -17,4 +17,17 @@ public class CoutingTest {
         assertEquals(expected, count-1);
         System.out.println("Teste finalizado!");
     }
+
+    @Test
+    public void testCounting2() {
+        int expected = 5;
+        int count = 1;
+        while (count <= 5) {
+            System.out.println(count);
+            count++;
+        }
+        assertEquals(expected, count-1);
+        System.out.println("Teste finalizado2!");
+    }
+
 }
